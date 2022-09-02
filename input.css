@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  
+/* ### Primary */
+
+  --red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+/* ### Neutral */
+
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.text-primary{
+  color: var(--VeryDarkBlue);
+}
+
+.text-light{
+  color: var(--GrayishBlue);
+}
+
+.bg-color{
+  background-color: var(--VeryLightGray);
+}
+
+.border-Cyan{
+  border-color: var(--Cyan);
+}
+
+.border-Red{
+  border-color: var(--red);
+}
+
+.border-Blue{
+  border-color: var(--Blue);
+}
+
+.border-Orange{
+  border-color: var(--Orange);
+}
